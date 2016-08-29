@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight:2px ;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 40px;
+  text-shadow: 10px 10px 10px #0404B4,
+               10px 10px 10px #FF0000;
+  color:#EFF8FB;
+
+
+}
+
+.home-container{
+  background:url('../images/mars.jpg') no-repeat center top;
+  background-size: cover;
+  height: 100vh;
+  color:#414A84;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.alien {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  transition: all .10s ease-in-out;
+}
+
+  img:hover{
+  transform:rotateY(360deg );
+  }
